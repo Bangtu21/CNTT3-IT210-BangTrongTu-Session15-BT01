@@ -1,0 +1,4 @@
+Session15-BT01-Phần 1
+- 2 điểm sai sót trong cách đặt tên hàm Derived Query trên so với quy tắc nghiệp vụ;
+	1. Thiếu điều kiện còn hàng trong kho vì yêu cầu phải stockQuantity > 0 nhưng trong hàm thì chỉ kiểm tra category và price
+	2. Dùng LessThan thay vì LessThanEqual vì yêu cầu giá bán nhỏ hơn hoặc bằng mức giá khách nhập nhưng code đang dùng lại chỉ có nhỏ hơn chứ không có bằng
